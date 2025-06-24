@@ -467,3 +467,61 @@ nav {
     top: unset;
     bottom: 5px;
 }
+
+@media (max-width: 900px) {
+
+    .right-sidebar,
+    .left-sidebar {
+        display: none;
+    }
+
+    .main-content {
+        flex-basis: 100%;
+    }
+
+    .search-box {
+        width: 250px;
+    }
+
+    .nav-left ul {
+        display: none;
+    }
+
+    .nav-user-icon {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .search-box {
+        display: none;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .nav-user-icon {
+        margin-left: auto;
+    }
+
+    .container {
+        padding: 10px 2%;
+    }
+
+    .post-container,
+    .create-post,
+    .home-section {
+        padding: 15px;
+    }
+
+    .stories-section {
+        gap: 10px;
+    }
+
+    .story-card {
+        width: 100px;
+        min-width: 100px;
+        height: 160px;
+    }
+}
