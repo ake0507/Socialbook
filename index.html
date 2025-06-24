@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SocialBook</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -22,10 +21,53 @@
           <img src="images/search.png" alt="" />
           <input type="text" placeholder="Search" />
         </div>
-        <div class="nav-user-icon online">
+        <div class="nav-user-icon online" onclick="toggleSettingsMenu()">
           <img src="images/profile-pic.png" alt="" />
         </div>
       </dev>
+      <!-- Settings Menu -->
+      <div class="settings-menu">
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" alt="User Profile" />
+            <div>
+              <p>Kefa Mideksa</p>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="images/feedback.png" alt="Feedback" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+          </div>
+          <hr />
+          <div class="settings-links">
+            <img src="images/setting.png" class="settings-icon" />
+            <a href="#"
+              >Settings & Privacy <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/help.png" class="settings-icon" />
+            <a href="#"
+              >Help & Support <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/display.png" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibility <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/logout.png" class="settings-icon" />
+            <a href="#">Logout <img src="images/arrow.png" width="10px" /></a>
+          </div>
+        </div>
+      </div>
     </nav>
     <div class="container">
       <!-------- left-sidebar     -->
@@ -154,7 +196,37 @@
         </div>
       </div>
       <!-------- right-sidebar     -->
-      <div class="right-sidebar"></div>
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Contacts</h4>
+          <a href="#">See All</a>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-1.png" alt="" />
+          </div>
+          <p>Libanos Tade</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-2.png" alt="" />
+          </div>
+          <p>Mulgeta Tamirat</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-3.png" alt="" />
+          </div>
+          <p>Aragesh Arehash</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-4.png" alt="" />
+          </div>
+          <p>Gizachu Helebo</p>
+        </div>
+      </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
