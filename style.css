@@ -296,3 +296,80 @@ nav {
     border: 3px solid #fff;
     box-shadow: 0 2px 8px rgba(24, 118, 242, 0.15);
 }
+
+.post-container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.post-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-profile p {
+    margin-bottom: -2px;
+    font-weight: 600;
+    color: #050505;
+}
+
+.user-profile span {
+    font-size: 13px;
+    color: #65676b;
+}
+
+.post-more-icon {
+    width: 20px;
+}
+
+.post-text {
+    color: #050505;
+    margin: 15px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.post-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.activity-icons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.activity-icons div {
+    display: flex;
+    align-items: center;
+    color: #65676b;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.activity-icons div img {
+    width: 18px;
+    margin-right: 8px;
+}
